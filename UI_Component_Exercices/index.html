@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Le Wagon Exercices UI components</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	
+	<div class="container">
+		<h1 class="text-center">Le Wagon Exercices UI components</h1>
+
+		<h2>Facebook button</h2>
+
+      <div class="btn-facebook btn-primary btn-lg" role="true">
+        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+        <a href="#">Like</a>
+      </div>
+
+      <h2>Epicurious Card</h2>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-epicurious">
+            <a href="https://www.epicurious.com/expert-advice/trader-joes-now-sells-frozen-chocolate-crepes-article" target="blank">
+              <img src="https://assets.epicurious.com/photos/5981e967610f2d2daec29cfd/16:9/w_2560%2Cc_limit/trader%252520joes.jpg" alt="crepe-joes">
+                <div class="card-epicurious-infos">
+                  <h3>Article</h3>
+                  <h4 class="card-epicurious-link">Pretend You're Parisian With Trader Joe's New Frozen Chocolate Crêpes</h4>
+                  <p>Say bonjour to your new favorite treat.</p>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-epicurious recipe">
+              <a href="https://www.epicurious.com/recipes/food/views/white-pesto-pasta" target="blank">
+                  <img src="https://assets.epicurious.com/photos/5ddbe92cd486ef00084cf96e/6:4/w_620%2Ch_413/White_pesto_pasta_recipe_BA_112519.jpg" alt="recipe">
+                    <div class="card-epicurious-infos">
+                      <h3>Recipe</h3>
+                        <h4 class="card-epicurious-link">White Pesto Pasta</h4>
+                          <div class="review-rating">
+                            <span>4/4</span>
+                            <img class="fork-img" src="images/4_forks.png" alt="fork user rating">
+                            <p>reviews 
+                              <span class="review-count">(2)</span>
+                            </p>
+                            <p>|</p>
+                            <div class="prepare-again-rating">
+                              <span>100%</span>
+                              <p>Make it again</p>
+                            </div>
+                          </div>
+                    </div>
+              </a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-epicurious">
+            <a href="https://www.epicurious.com/expert-advice/6-quick-ways-to-chill-wine-article" target="blank">
+              <img src="https://assets.epicurious.com/photos/5ca28b408db8844a8b14f9d8/16:9/w_2560%2Cc_limit/Wine-Fridge-Primer-28032019.jpg" alt="wine">
+                <div class="card-epicurious-infos">
+                  <h3>Article</h3>
+                  <h4 class="card-epicurious-link">7 Quick Ways to Chill Wine</h4>
+                  <p>These genius hacks will get your wine ice-cold in minutes.</p>
+                </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+	</div>
+
+<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

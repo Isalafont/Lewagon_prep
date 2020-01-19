@@ -1,0 +1,32 @@
+.btn-facebook {
+	position: relative;
+	display: inline-block;
+	text-align: center; 
+	vertical-align: middle;
+	color: #FFFFFF !important;
+	font: 20px;
+	border-radius: 4px !important;
+	font-weight: bold !important;
+	background: linear-gradient(#167FFB, #0F60C4) !important;
+	width: 144px !important;
+	height: 48px !important;
+	border: 1px solid #0F60C4 !important;
+}
+
+.btn-facebook a {
+	text-decoration: none; 
+	color: white;
+}
+
+.btn-facebook:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+  text-decoration: none;
+}
+
+.fa-thumbs-o-up {
+	position: absolute;
+	top: 13px;
+	left: 28px;
+}
+
