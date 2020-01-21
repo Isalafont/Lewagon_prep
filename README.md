@@ -10,3 +10,5 @@ You will find :
  
  https://isalafont.github.io/Lewagon_prep/UI_Component_Exercices
  
+ - JS Exercices
+ 
