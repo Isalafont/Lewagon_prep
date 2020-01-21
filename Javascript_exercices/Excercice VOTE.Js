@@ -27,3 +27,9 @@ function votingAge(age){
 
 var age = Number(prompt("What's your age?"));
 console.log(votingAge(age));
+
+// Exercice IMDB LIST / Top 10 rating Movie 
+
+for (i = 0; i < 10; i++) {
+  console.log($(".titleColumn a"). get(i).innerHTML)
+}
