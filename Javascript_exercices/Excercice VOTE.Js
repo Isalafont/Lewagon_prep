@@ -1,7 +1,7 @@
 // Excercice VOTE - Javascript 
 // Using Contidional execution  If Else 
 
-let age = Number(prompt("What's your age?"));
+const age = Number(prompt("What's your age?"));
 
 if (age >= 21) {
   console.log("You can be elected as President!");
@@ -10,10 +10,8 @@ if (age >= 21) {
   } else {
     console.log("Sorry, you're too young to vote!");
   }
-}
     
 // Using Function 
-
 
 function votingAge(age){
   if (age >= 21){
@@ -25,8 +23,14 @@ function votingAge(age){
   }
 }
 
-var age = Number(prompt("What's your age?"));
+const age = Number(prompt("What's your age?"));
 console.log(votingAge(age));
+
+// using const instead of var - 
+// Const is a signal that the identifier won't be reassigned
+
+// let is a signal that the variable may be reassigned 
+// such as a counter in a loop - tends to be for loops or mathematical algorithms.
 
 // Exercice IMDB LIST / Top 10 rating Movie 
 
